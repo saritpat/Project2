@@ -6,6 +6,10 @@ int main()
 {
     int a, b, c, d;
     scanf("%d %d", &a, &b);
+    if(a > 1000 || b > 1000)
+    {
+        printf("ERROR");
+    }
     c = a;
     d = b;
     for (; a <= 999; a = a + c)
